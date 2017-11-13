@@ -2,17 +2,9 @@ body {
    font-size: 12px;
    line-height: 1em;
 }
-
-.snippet__thumbnail > img {
-   width: 100%;
-}
-
-.snippet {body {
-   font-size: 12px;
-   line-height: 1em;
-}
 .scores__table th{
   font-size: 14px; 
+  border: 1px solid white; 
 }
 .snippet__thumbnail > img {
    width: 100%;
@@ -77,91 +69,7 @@ body {
 
    .snippet__description {
       -webkit-line-clamp: 3;
-      max-height: 4 em;
-   }
-}
-
-@media screen and (min-width: 650px) {  
-
-   .snippet__thumbnail {
-      max-height: 140px; 
-      max-width: 240px; 
-      height: auto; 
-      width: auto; 	
-      background-image: url("images/dog2.jpg"); 
-   }
-
-   .snippet__description {
-      -webkit-line-clamp: 4;
-      max-height: 5.5em
-   }
-
-}
-
-@media screen and (min-width: 750px) {
-   .scores__table {
-      font-size: 12px;
-   }
-}
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.snippet__title {
-   order: 0;
-   width: 100%;
-}
-
-.snippet__thumbnail {
-   order: 1;
-   width: 40%;
-}
-
-.snippet__description {
-   order: 2;
-   width: 80%;
-   margin: 0;
-   overflow: hidden;
-   display: -webkit-box;
-   -webkit-box-orient: vertical;
-   text-overflow: ellipsis;
-}
-
-@media screen and (max-width: 400px) {
-   .snippet__title {
-      font-size: 8px;
-   }
-
-   .snippet__description {
-      width: 100%;
-      padding: 0;
-      max-height: 3.5em;
-   }
-}
-
-@media screen and (max-width: 500px) {
-   .scores__table .scores__location {
-      display: none;
-   }
-}
-
-@media screen and (max-width: 649px) {
-
-   .snippet__thumbnail {
-      width: 30%;
-      margin: 0;
-   }
-   .snippet__thumbnail {
-      max-height: 70px; 
-      max-width: 120px; 
-      height: auto; 
-      width: auto; 	
-      background-image: url("images/dog2.jpg"); 
-   }
-
-   .snippet__description {
-      -webkit-line-clamp: 3;
-      max-height: 4 em;
+      max-height: 4em;
    }
 }
 
